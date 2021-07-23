@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 1rem;
+    overflow: hidden;
+    background: #313131;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px black;
+}
+
+canvas{
+    box-shadow: -3px 2px 9px 6px;
+    cursor: pointer;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.tools .btn{
+    align-self: center;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: rgb(130, 130, 158);
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+.tools .btn:hover{
+    color: black;
+    border: 2px solid black;
+}
+
+.tools .color-field{
+    height: 3rem;
+    width: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-self: center;
+    margin: 0 1rem;
+}
+
+.tools .color-field:hover{
+    border: 2px solid black;
+}
+
+.color-picker {
+    align-self: center;
+    margin: 0 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.pen-range{
+    align-self: center;
+    margin: 0 1rem;
+}
