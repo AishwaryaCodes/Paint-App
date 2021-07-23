@@ -6,7 +6,7 @@ const penRange = document.querySelector(".pen-range");
 
 const canvas = document.querySelector("#canvas");
 canvas.width = window.innerWidth - 60;
-canvas.height = 540;
+canvas.height = 450;
 
 const context = canvas.getContext("2d");
 context.fillStyle = "white";
